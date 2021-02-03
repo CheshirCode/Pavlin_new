@@ -116,7 +116,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     position: fixed;
-    z-index: 3;
+    z-index: 5;
     background: #562275;
     color: #d4dbfa;
     border-radius: 5px;
@@ -144,7 +144,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 50;
+    z-index: 5;
 }
 .header:before {
     content: "";
@@ -154,7 +154,7 @@ body {
     top: 0;
     left: 0;
     /* background-color: #6d759f; */
-    z-index: 2;
+    z-index: 5;
 }
 
 .header__body {
@@ -167,7 +167,7 @@ body {
 .logo__block {
     /* display: flex; */
     flex-direction: column;
-    z-index: 2;
+    z-index: 5;
 }
 /* .header__logo {
 } */
@@ -179,7 +179,7 @@ body {
 .header__list {
     display: flex;
     position: relative;
-    z-index: 2;
+    z-index: 5;
     
 }
 .header__list li {
