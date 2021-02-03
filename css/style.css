@@ -123,11 +123,14 @@ body {
     font-family: "PT Sans", sans-serif;
     cursor: pointer;
 }
+.btn:hover{
+    background:#6b3d86
+}
 @media (max-width: 724px) {
     .btn{
         bottom: 20px;
-        left: 20px;
-        cursor: pointer;
+        right: 50px;
+        
     }
 }
 .container {
@@ -164,7 +167,7 @@ body {
 .logo__block {
     /* display: flex; */
     flex-direction: column;
-    z-index: 3;
+    z-index: 2;
 }
 /* .header__logo {
 } */
@@ -205,7 +208,7 @@ body {
         width: 30px;
         height: 20px;
         position: relative;
-        z-index: 3;
+        z-index: 5;
     }
     .header__burger span {
         background-color: #fff;
@@ -523,9 +526,10 @@ body {
     padding: 0px 0px 280px 0px;
 }
 .stopcoronavirus p {
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Oswald", sans-serif;
     color: white;
+    padding: 30px 0px;
 }
 .stopcoronavirus a {
     color: rgb(251, 255, 10);
